@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/%7BPhrenologyApp%7D/static/css/main.676f13b1.css",
+    "main.js": "/%7BPhrenologyApp%7D/static/js/main.809c88b9.js",
+    "static/media/Paul-Broca.jpg": "/%7BPhrenologyApp%7D/static/media/Paul-Broca.5c83459f6bd35206ee2a.jpg",
+    "static/media/phrenology-chart-skull-divisions.jpg": "/%7BPhrenologyApp%7D/static/media/phrenology-chart-skull-divisions.cf2662803986bfa26955.jpg",
+    "static/media/Franz_Josef_Gall.jpg": "/%7BPhrenologyApp%7D/static/media/Franz_Josef_Gall.7b99e98c0e3c3dc4c493.jpg",
+    "static/media/image3.jpg": "/%7BPhrenologyApp%7D/static/media/image3.56fd702af0323b318ae0.jpg",
+    "static/media/image1.jpg": "/%7BPhrenologyApp%7D/static/media/image1.9853b75ad7330395014b.jpg",
+    "static/media/phrenologytest1.jpg": "/%7BPhrenologyApp%7D/static/media/phrenologytest1.e887eb6a351a7f6ee4c3.jpg",
+    "static/media/phrenologytest3.jpg": "/%7BPhrenologyApp%7D/static/media/phrenologytest3.78bdcf7054b8b16911b0.jpg",
+    "static/media/phrenologytest2.jpg": "/%7BPhrenologyApp%7D/static/media/phrenologytest2.02bedc1a655123e8562e.jpg",
+    "index.html": "/%7BPhrenologyApp%7D/index.html",
+    "main.676f13b1.css.map": "/%7BPhrenologyApp%7D/static/css/main.676f13b1.css.map",
+    "main.809c88b9.js.map": "/%7BPhrenologyApp%7D/static/js/main.809c88b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.676f13b1.css",
+    "static/js/main.809c88b9.js"
+  ]
+}
