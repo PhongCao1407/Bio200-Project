@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/PhrenologyApp/static/css/main.676f13b1.css",
-    "main.js": "/PhrenologyApp/static/js/main.dbba566c.js",
-    "static/media/Paul-Broca.jpg": "/PhrenologyApp/static/media/Paul-Broca.5c83459f6bd35206ee2a.jpg",
-    "static/media/phrenology-chart-skull-divisions.jpg": "/PhrenologyApp/static/media/phrenology-chart-skull-divisions.cf2662803986bfa26955.jpg",
-    "static/media/Franz_Josef_Gall.jpg": "/PhrenologyApp/static/media/Franz_Josef_Gall.7b99e98c0e3c3dc4c493.jpg",
-    "static/media/image3.jpg": "/PhrenologyApp/static/media/image3.56fd702af0323b318ae0.jpg",
-    "static/media/image1.jpg": "/PhrenologyApp/static/media/image1.9853b75ad7330395014b.jpg",
-    "static/media/phrenologytest1.jpg": "/PhrenologyApp/static/media/phrenologytest1.e887eb6a351a7f6ee4c3.jpg",
-    "static/media/phrenologytest3.jpg": "/PhrenologyApp/static/media/phrenologytest3.78bdcf7054b8b16911b0.jpg",
-    "static/media/phrenologytest2.jpg": "/PhrenologyApp/static/media/phrenologytest2.02bedc1a655123e8562e.jpg",
-    "index.html": "/PhrenologyApp/index.html",
-    "main.676f13b1.css.map": "/PhrenologyApp/static/css/main.676f13b1.css.map",
-    "main.dbba566c.js.map": "/PhrenologyApp/static/js/main.dbba566c.js.map"
+    "main.css": "/static/css/main.676f13b1.css",
+    "main.js": "/static/js/main.afc140e1.js",
+    "static/media/Paul-Broca.jpg": "/static/media/Paul-Broca.5c83459f6bd35206ee2a.jpg",
+    "static/media/phrenology-chart-skull-divisions.jpg": "/static/media/phrenology-chart-skull-divisions.cf2662803986bfa26955.jpg",
+    "static/media/Franz_Josef_Gall.jpg": "/static/media/Franz_Josef_Gall.7b99e98c0e3c3dc4c493.jpg",
+    "static/media/image3.jpg": "/static/media/image3.56fd702af0323b318ae0.jpg",
+    "static/media/image1.jpg": "/static/media/image1.9853b75ad7330395014b.jpg",
+    "static/media/phrenologytest1.jpg": "/static/media/phrenologytest1.e887eb6a351a7f6ee4c3.jpg",
+    "static/media/phrenologytest3.jpg": "/static/media/phrenologytest3.78bdcf7054b8b16911b0.jpg",
+    "static/media/phrenologytest2.jpg": "/static/media/phrenologytest2.02bedc1a655123e8562e.jpg",
+    "index.html": "/index.html",
+    "main.676f13b1.css.map": "/static/css/main.676f13b1.css.map",
+    "main.afc140e1.js.map": "/static/js/main.afc140e1.js.map"
   },
   "entrypoints": [
     "static/css/main.676f13b1.css",
-    "static/js/main.dbba566c.js"
+    "static/js/main.afc140e1.js"
   ]
 }
