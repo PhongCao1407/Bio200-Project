@@ -1,6 +1,7 @@
 import './App.css';
 import {InfoHeader, InfoCards, PhrenologyTestButton} from './components/information/information'
 import {PhrenologyTest} from './components/phrenologytest/phrenologytest'
+import {End} from './components/end/end'
 import { Routes, Route, useNavigate } from "react-router-dom"
 
 
@@ -9,6 +10,10 @@ const App = () => {
 
   const moveToTest = () => {
     navigator('/phrenologytest');
+  }
+
+  const moveToEnd = () => {
+    navigator('/end');
   }
 
   return (
@@ -21,8 +26,11 @@ const App = () => {
         </div>
       }/>
       <Route path="/phrenologytest" element={
-        <PhrenologyTest />
+        <PhrenologyTest handleClick={moveToEnd}/>
       }></Route>
+      <Route path="/end" element={
+        <End />
+      }/>
     </Routes>
   );
 }

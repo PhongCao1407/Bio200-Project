@@ -7,7 +7,7 @@ import {useState} from 'react'
 
 let curr_question = "first"
 
-const PhrenologyTest = () => {
+const PhrenologyTest = (props) => {
 
     const [imageClicked, setImageClicked] = useState({
         first: true,
@@ -76,6 +76,7 @@ const PhrenologyTest = () => {
 
                     incorrectMark.removeAttribute("id", "incorrect-mark");
                     correctMark.removeAttribute("id", "correct-mark");
+
                 }
             , 5000)
             curr_question = "third"
@@ -92,6 +93,11 @@ const PhrenologyTest = () => {
             let incorrectMark = document.getElementsByClassName("right-mark")[0];
             incorrectMark.textContent = "X"
             incorrectMark.setAttribute("id", "incorrect-mark");
+
+            // This should render a new page
+            setTimeout(() => props.handleClick()
+            , 5000)
+            
 
             console.log("Congratulation")
         }
