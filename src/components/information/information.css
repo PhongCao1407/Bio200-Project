@@ -79,3 +79,8 @@ html {
     font-weight: bold;
     font-size: large;
 }
+
+.test-your-phrenology>button:hover{
+    background-color: #eceaea;
+    cursor: pointer;
+}

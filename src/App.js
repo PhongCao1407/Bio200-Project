@@ -1,13 +1,13 @@
 import './App.css';
 import {InfoHeader, InfoCards, PhrenologyTestButton} from './components/information/information'
-import {PhrenologyImage, PhrenologyOptions} from './components/phrenologytest/phrenologytest'
+import {PhrenologyTest} from './components/phrenologytest/phrenologytest'
 import { Routes, Route, useNavigate } from "react-router-dom"
 
 
 const App = () => {
   const navigator = useNavigate()
 
-  const test = () => {
+  const moveToTest = () => {
     navigator('/phrenologytest');
   }
 
@@ -17,14 +17,11 @@ const App = () => {
         <div className='information'> 
           <InfoHeader />
           <InfoCards />
-          <PhrenologyTestButton handleClick={test}/>
+          <PhrenologyTestButton handleClick={moveToTest}/>
         </div>
       }/>
       <Route path="/phrenologytest" element={
-        <div className='phrenologytest'>
-          <PhrenologyImage/>
-          <PhrenologyOptions/>
-        </div>
+        <PhrenologyTest />
       }></Route>
     </Routes>
   );
